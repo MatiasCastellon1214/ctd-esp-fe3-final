@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className={state.theme === 'dark' ? 'nav-dark' : ''}>
       
-      <img src='./../../public/DH.ico' alt="" style={{width:'30px', height:'auto'}}/>
+      <img src='/public/DH.ico' alt="" style={{width:'30px', height:'auto'}}/>
       
       <div>
         <Link to={routes.home}>

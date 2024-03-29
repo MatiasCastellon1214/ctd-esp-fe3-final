@@ -27,7 +27,7 @@ const Card = ({ name, username, id }) => {
           <h3>{name}</h3>
           <h3>{username}</h3>
           <h3>Id: {id}</h3>
-          <img src="./public/images/doctor.jpg" alt="" style={{width:'100%'}}/>
+          <img src="/images/doctor.jpg" alt="" style={{width:'100%'}}/>
           
           <button onClick={addOrDeleteFav} className="favButton">
             {isFav ? '❌' : '⭐'}
